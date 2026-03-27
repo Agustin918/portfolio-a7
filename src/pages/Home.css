@@ -1,0 +1,171 @@
+/* Home.css */
+.home-wrapper {
+    width: 100%;
+}
+
+.hero-container {
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 4rem;
+    overflow: hidden;
+    background-color: var(--gray-light);
+    position: relative;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(10%);
+}
+
+.home-content {
+    max-width: 800px;
+    margin: 10rem auto 10rem;
+    text-align: center;
+}
+
+/* Featured Projects Section */
+.home-featured-projects {
+    margin-bottom: 8rem;
+}
+
+.featured-title {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border-bottom: 1px solid var(--gray-light);
+    padding-bottom: 1rem;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.view-all-container {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.view-all-link {
+    text-decoration: none;
+    color: var(--text-primary);
+    font-weight: 400;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    transition: opacity 0.3s ease;
+}
+
+.view-all-link:hover {
+    opacity: 0.7;
+}
+
+@media (max-width: 1024px) {
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .home-title {
+        font-size: 2.5rem;
+    }
+    
+    .home-content {
+        margin: 5rem auto;
+        padding: 0 1rem;
+    }
+    
+    .hero-container {
+        height: 40vh;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.home-title {
+    font-size: 3.5rem;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.home-content {
+    max-width: 800px;
+    margin: 6rem auto 10rem;
+    text-align: center;
+}
+
+.home-description {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--text-secondary);
+}
+
+/* Services Section */
+.home-services {
+    margin: 10rem 0;
+    padding: 6rem 0;
+    border-top: 1px solid var(--gray-light);
+    border-bottom: 1px solid var(--gray-light);
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+    text-align: center;
+}
+
+.service-item h3 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.25em;
+    margin-bottom: 1.5rem;
+    color: var(--text-primary);
+    text-transform: uppercase;
+}
+
+.service-item p {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+/* Featured Projects Section */
+.home-featured-projects {
+    margin-bottom: 8rem;
+}
+
+@media (max-width: 768px) {
+    .services-grid {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .home-title {
+        font-size: 2rem;
+    }
+    
+    .home-content {
+        margin-top: 5rem;
+        padding: 0 1rem;
+    }
+    
+    .hero-container {
+        height: 40vh;
+    }
+}

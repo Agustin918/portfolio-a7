@@ -1,0 +1,18 @@
+/* Projects.css */
+.projects-gallery {
+    column-count: 3;
+    column-gap: 2rem;
+}
+
+/* Responsiveness */
+@media (max-width: 900px) {
+    .projects-gallery {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 600px) {
+    .projects-gallery {
+        column-count: 1;
+    }
+}
