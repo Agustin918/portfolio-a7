@@ -1,6 +1,30 @@
 // Actualizado
 export const projectsData = [
     {
+        id: 7,
+        title: 'Casa Las Chacras',
+        year: '2023',
+        area: '200 M²',
+        location: 'Bs. As.',
+        coverImage: '/proyectos/casa-las-chacras-1.jpg',
+        description: 'Una vivienda familiar ubicada en Buenos Aires, diseñada con espacios luminosos y una distribución que maximiza el confort y la conexión con el entorno natural.',
+        images: [
+            '/proyectos/casa-las-chacras-planta-baja.jpg',
+            '/proyectos/casa-las-chacras-planta-alta.jpg',
+            '/proyectos/casa-las-chacras-1.jpg',
+            '/proyectos/casa-las-chacras-2.jpg',
+            '/proyectos/casa-las-chacras-3.jpg',
+            '/proyectos/casa-las-chacras-4.jpg',
+            '/proyectos/casa-las-chacras-5.jpg',
+            '/proyectos/casa-las-chacras-6.jpg',
+            '/proyectos/casa-las-chacras-7.jpg',
+            '/proyectos/casa-las-chacras-8.jpg',
+            '/proyectos/casa-las-chacras-9.jpg',
+            '/proyectos/casa-las-chacras-10.jpg',
+            '/proyectos/casa-las-chacras-11.jpg',
+        ]
+    },
+    {
         id: 3,
         title: 'Casa La Reserva',
         year: '2025',
