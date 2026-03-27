@@ -1,6 +1,25 @@
 // Actualizado
 export const projectsData = [
     {
+        id: 8,
+        title: 'Casa Naudir',
+        year: '2023',
+        area: '300 M²',
+        location: 'Bs. As.',
+        coverImage: '/proyectos/casa-naudir-1.png',
+        description: 'Una vivienda de 300m2 en Buenos Aires, diseñada con espacios amplios y luminosity. El proyecto combina materiales contemporáneos con un diseño funcional y elegante.',
+        images: [
+            '/proyectos/casa-naudir-planta-baja.jpg',
+            '/proyectos/casa-naudir-planta-alta.jpg',
+            '/proyectos/casa-naudir-1.png',
+            '/proyectos/casa-naudir-2.png',
+            '/proyectos/casa-naudir-3.png',
+            '/proyectos/casa-naudir-4.png',
+            '/proyectos/casa-naudir-5.png',
+            '/proyectos/casa-naudir-6.png',
+        ]
+    },
+    {
         id: 7,
         title: 'Casa Las Chacras',
         year: '2023',
