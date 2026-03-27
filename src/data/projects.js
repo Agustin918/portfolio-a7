@@ -90,13 +90,24 @@ export const projectsData = [
     },
     {
         id: 4,
-        title: 'Oficinas Centrales',
-        year: '2023',
-        area: '800 M²',
-        location: 'Córdoba',
-        coverImage: null,
-        description: 'Diseño corporativo open-space que fomenta la colaboración y el bienestar de los empleados.',
-        images: []
+        title: 'Casa Mermoz',
+        year: '2019',
+        area: '200 M²',
+        location: 'Bs. As.',
+        coverImage: '/proyectos/casa-mermoz-1.jpg',
+        description: 'Una vivienda residencial diseñada con criterios de sostenibilidad y confort, ubicada en Buenos Aires. El proyecto maximiza los espacios interiores y exteriores.',
+        images: [
+            '/proyectos/casa-mermoz-planta.jpg',
+            '/proyectos/casa-mermoz-1.jpg',
+            '/proyectos/casa-mermoz-2.jpg',
+            '/proyectos/casa-mermoz-3.jpg',
+            '/proyectos/casa-mermoz-4.jpg',
+            '/proyectos/casa-mermoz-5.jpg',
+            '/proyectos/casa-mermoz-6.jpg',
+            '/proyectos/casa-mermoz-7.jpg',
+            '/proyectos/casa-mermoz-8.jpg',
+            '/proyectos/casa-mermoz-9.jpg',
+        ]
     },
     {
         id: 5,
