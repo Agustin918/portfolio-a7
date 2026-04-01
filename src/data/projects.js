@@ -113,7 +113,7 @@ export const projectsData = [
         year: '2019',
         area: '200 M²',
         location: 'Bs. As.',
-        coverImage: '/proyectos/casa-mermoz-1.jpg',
+        coverImage: '/proyectos/casa-mermoz-portada.jpg',
         description: 'Una vivienda residencial diseñada con criterios de sostenibilidad y confort, ubicada en Buenos Aires. El proyecto maximiza los espacios interiores y exteriores.',
         images: [
             '/proyectos/casa-mermoz-planta.jpg',
