@@ -112,7 +112,7 @@ const Home = () => {
                     </section>
 
                     <section className="home-contact-cta">
-                        <Link to="/contacto" className="contact-button">
+                        <Link to="/contactanos" className="contact-button">
                             CONTACTANOS
                         </Link>
                     </section>

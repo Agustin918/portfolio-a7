@@ -111,10 +111,44 @@
     color: var(--text-secondary);
 }
 
+/* Services Grid Section */
+.home-services {
+    margin-bottom: 10rem;
+    padding-top: 4rem;
+    border-top: 1px solid #f0f0f0;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+}
+
+.service-item h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+    letter-spacing: 0.15em;
+    color: #1a1a1a;
+}
+
+.service-item p {
+    font-size: 0.95rem;
+    line-height: 1.8;
+    color: #666;
+    font-weight: 300;
+}
+
+@media (max-width: 1024px) {
+    .services-grid {
+        gap: 2rem;
+    }
+}
+
 @media (max-width: 768px) {
     .services-grid {
         grid-template-columns: 1fr;
-        gap: 3rem;
+        gap: 3.5rem;
     }
 }
 
