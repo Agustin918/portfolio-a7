@@ -36,9 +36,11 @@
 }
 
 .logo-img {
-    height: 32px;
+    height: 40px;
     width: auto;
+    object-fit: contain;
     filter: invert(1);
+    display: block;
 }
 
 .logo-text {
