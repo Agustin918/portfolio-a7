@@ -110,6 +110,12 @@ const Home = () => {
                             </Link>
                         </div>
                     </section>
+
+                    <section className="home-contact-cta">
+                        <Link to="/contacto" className="contact-button">
+                            CONTACTANOS
+                        </Link>
+                    </section>
                 </div>
             </div>
         </AnimatedPage>
