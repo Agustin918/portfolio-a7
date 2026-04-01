@@ -25,7 +25,7 @@ export const projectsData = [
         year: '2023',
         area: '200 M²',
         location: 'Bs. As.',
-        coverImage: '/proyectos/casa-las-chacras-1.jpg',
+        coverImage: '/proyectos/casa-las-chacras-portada.jpg',
         description: 'Una vivienda familiar ubicada en Buenos Aires, diseñada con espacios luminosos y una distribución que maximiza el confort y la conexión con el entorno natural.',
         images: [
             '/proyectos/casa-las-chacras-planta-baja.jpg',
