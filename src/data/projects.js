@@ -1,4 +1,4 @@
-// Actualizado
+// Actualizado v2-1707
 export const projectsData = [
     {
         id: 8,
@@ -128,25 +128,18 @@ export const projectsData = [
             '/proyectos/casa-mermoz-9.jpg',
         ]
     },
-    {
-        id: 5,
-        title: 'Renovación Loft',
-        year: '2023',
-        area: '150 M²',
-        location: 'Rosario',
-        coverImage: null,
-        description: 'Reciclaje de una antigua fábrica textil convertida en viviendas tipo loft con estética industrial.',
-        images: []
-    },
+
     {
         id: 6,
-        title: 'Casa Repetto',
+        title: 'Casa Los Fresnos',
         year: '2026',
         area: '240 M²',
         location: 'Bs. As.',
         coverImage: '/proyectos/repetto/20022026-DSC_0665.jpg',
         description: 'Una obra que explora la materialidad y la luz como elementos constructivos primordiales. La arquitectura se funde con el paisaje de Maschwitz, creando espacios que respiran y evolucionan con el tiempo.',
         images: [
+            '/proyectos/repetto/casa-fresnos-planta-baja.jpg',
+            '/proyectos/repetto/casa-fresnos-planta-alta.jpg',
             '/proyectos/repetto/20022026-DSC_0665.jpg',
             '/proyectos/repetto/20022026-DSC_0666.jpg',
             '/proyectos/repetto/20022026-DSC_0668.jpg',
