@@ -20,10 +20,9 @@
 }
 
 .footer-logo-img {
-    height: 32px;
+    height: 36px;
     width: auto;
     object-fit: contain;
-    filter: invert(1);
     display: block;
 }
 
