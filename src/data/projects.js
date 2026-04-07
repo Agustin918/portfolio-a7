@@ -26,7 +26,7 @@ export const projectsData = [
         area: '200 M²',
         location: 'Bs. As.',
         coverImage: '/proyectos/casa-las-chacras-portada.jpg',
-        description: 'Una vivienda familiar ubicada en Buenos Aires, diseñada con espacios luminosos y una distribución que maximiza el confort y la conexión con el entorno natural.',
+        description: 'Implantada en un lote de 1.000 m² en Las Chacras, Ingeniero Maschwitz, Casa Maite surge como una vivienda en construcción en seco que respeta el arbolado existente y la piscina preexistente. Organizada en dos alas con cubiertas inclinadas, separa área social y privada. La espacialidad interior aprovecha las pendientes para incorporar espacios de trabajo en planta alta. El revestimiento en madera quemada, junto a pisos y cielorrasos de madera, refuerza continuidad y calidez. Una casa donde sistema constructivo, escala y paisaje se equilibran con naturalidad.',
         images: [
             '/proyectos/casa-las-chacras-planta-baja.jpg',
             '/proyectos/casa-las-chacras-planta-alta.jpg',
