@@ -94,7 +94,7 @@ export const projectsData = [
         area: '180 M²',
         location: 'Bs. As.',
         coverImage: '/proyectos/casa-negrita-portada.jpg',
-        description: 'Una propuesta residencial de líneas modernas y contrastes marcados. El juego de sombras y la elección de texturas definen el carácter único de esta obra en Ingeniero Maschwitz.',
+        description: 'Implantada en un lote arbolado de 1.400 m², recupera una vivienda existente con cubierta a dos aguas, reinterpretándola bajo una impronta nórdica. Se preserva la estructura apta y se amplía el programa, liberando el espacio social y extendiendo las alas privadas. La envolvente en madera quemada y chapa negra consolida una imagen sobria y contemporánea. Una intervención que actualiza lo existente sin perder su memoria.',
         images: [
             '/proyectos/casa-negrita-planta.jpg',
             '/proyectos/casa-negrita-1.jpg',
