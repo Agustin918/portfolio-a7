@@ -18,7 +18,7 @@ const Home = () => {
                     <title>Inicio | a7 Arquitectura</title>
                     <meta name="description" content="Estudio de arquitectura a7. La arquitectura como obra de arte, viva y despojada de la intelectualización de la línea." />
                 </Helmet>
-                
+
                 <div className="hero-container">
                     <motion.img
                         initial={{ opacity: 0 }}
@@ -27,12 +27,14 @@ const Home = () => {
                         src="/home-hero.jpg"
                         alt="a7 Arquitectura Hero"
                         className="hero-image"
+                        fetchpriority="high"
+                        loading="eager"
                     />
                 </div>
 
                 <div className="container">
                     <div className="home-content">
-                        <motion.h1 
+                        <motion.h1
                             initial={{ opacity: 0, y: 30 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
@@ -41,8 +43,8 @@ const Home = () => {
                         >
                             Arquitectura Viva
                         </motion.h1>
-                        
-                        <motion.p 
+
+                        <motion.p
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
@@ -55,7 +57,7 @@ const Home = () => {
 
                     <section className="home-services">
                         <div className="services-grid">
-                            <motion.div 
+                            <motion.div
                                 initial={{ opacity: 0, y: 20 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
@@ -65,7 +67,7 @@ const Home = () => {
                                 <h3>PROYECTO</h3>
                                 <p>Diseño arquitectónico integral y personalizado.</p>
                             </motion.div>
-                            <motion.div 
+                            <motion.div
                                 initial={{ opacity: 0, y: 20 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
@@ -75,7 +77,7 @@ const Home = () => {
                                 <h3>DIRECCIÓN</h3>
                                 <p>Supervisión técnica y control de calidad en obra.</p>
                             </motion.div>
-                            <motion.div 
+                            <motion.div
                                 initial={{ opacity: 0, y: 20 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
@@ -89,7 +91,7 @@ const Home = () => {
                     </section>
 
                     <section className="home-featured-projects">
-                        <motion.h2 
+                        <motion.h2
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
@@ -97,7 +99,7 @@ const Home = () => {
                         >
                             Obras Destacadas
                         </motion.h2>
-                        
+
                         <div className="projects-grid">
                             {featuredProjects.map((project, index) => (
                                 <ProjectCard key={project.id} project={project} index={index} />

@@ -149,5 +149,32 @@ export const projectsData = [
             '/proyectos/repetto/20022026-DSC_0693.jpg',
             '/proyectos/repetto/20022026-DSC_0694.jpg',
         ]
+    },
+    {
+        id: 9,
+        title: 'Casa Asia',
+        year: '2014',
+        area: '',
+        location: 'Bs. As.',
+        coverImage: '/proyectos/casa-asia/DSC_0703-.jpg',
+        description: 'Implantada en el barrio Santa Teresa, en un lote de 1.100 m² con vistas a la laguna, responde al desafío de captar luz y optimizar visuales. Se organiza en dos volúmenes unidos por un núcleo central. Entre ambos se genera un pulmón verde con vegetación y agua que ilumina los espacios sin abrirse a la calle. Chapa, revoques texturados, piedra y madera, junto a techos de pendiente invertida, construyen una volumetría singular. La piscina en desniveles y el muelle completan el conjunto.',
+        images: [
+            '/proyectos/casa-asia/planta-baja.jpg',
+            '/proyectos/casa-asia/planta-alta.jpg',
+            '/proyectos/casa-asia/1-5.jpg',
+            '/proyectos/casa-asia/1-11.jpg',
+            '/proyectos/casa-asia/1-22.jpg',
+            '/proyectos/casa-asia/1-31.jpg',
+            '/proyectos/casa-asia/1-40.jpg',
+            '/proyectos/casa-asia/1-66.jpg',
+            '/proyectos/casa-asia/1-73.jpg',
+            '/proyectos/casa-asia/1-74.jpg',
+            '/proyectos/casa-asia/1-84.jpg',
+            '/proyectos/casa-asia/1-86.jpg',
+            '/proyectos/casa-asia/1-105.jpg',
+            '/proyectos/casa-asia/1-106.jpg',
+            '/proyectos/casa-asia/DSC_0703-.jpg',
+            '/proyectos/casa-asia/DSC_0712-.jpg',
+        ]
     }
 ];
