@@ -36,7 +36,7 @@
 }
 
 .logo-img {
-    height: 38px;
+    height: 45px;
     width: auto;
     object-fit: contain;
     display: block;
@@ -44,7 +44,7 @@
 }
 
 .header-scrolled .logo-img {
-    height: 34px;
+    height: 38px;
 }
 
 .logo:hover .logo-img {
@@ -57,9 +57,9 @@
 }
 
 .nav-list a {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.15em;
     color: var(--text-on-dark);
     transition: color 0.3s ease, transform 0.3s ease;
     display: inline-block;
@@ -67,7 +67,6 @@
 
 .nav-list a:hover {
     color: var(--text-on-dark-active);
-    transform: scale(1.1);
 }
 
 /* Botón Hamburguesa */
@@ -77,20 +76,20 @@
     background: none;
     border: none;
     z-index: 1100;
-    padding: 10px;
+    padding: 5px;
 }
 
 .hamburger span {
     display: block;
-    width: 25px;
-    height: 2px;
+    width: 22px;
+    height: 1.5px;
     background-color: var(--text-on-dark-active);
     margin: 5px 0;
     transition: all 0.3s ease;
 }
 
 .hamburger.active span:nth-child(1) {
-    transform: rotate(45deg) translate(5px, 5px);
+    transform: rotate(45deg) translate(4px, 4px);
 }
 
 .hamburger.active span:nth-child(2) {
@@ -103,11 +102,15 @@
 
 @media (max-width: 768px) {
     .header {
-        padding: 0.8rem 0;
+        padding: 0.6rem 0;
     }
 
-    .logo-text {
-        font-size: 0.9rem;
+    .logo-img {
+        height: 35px;
+    }
+
+    .header-scrolled .logo-img {
+        height: 30px;
     }
 
     .hamburger {
